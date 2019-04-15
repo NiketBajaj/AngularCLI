@@ -15,6 +15,7 @@ import { Customer2Service } from "./customer2.service";
 
 import { StudentModule } from "./student/student.module";
 import { CustomerModule } from "./customer/customer.module";
+import { MydirectiveDirective } from "./mydirective.directive";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CustomerModule } from "./customer/customer.module";
     XyzComponent,
     PqrComponent,
     JklComponent,
-    GhiComponent
+    GhiComponent,
+    MydirectiveDirective
   ],
   imports: [BrowserModule, AppRoutingModule, StudentModule, CustomerModule],
   providers: [CustomerService, Customer1Service, Customer2Service],
