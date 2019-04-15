@@ -13,6 +13,9 @@ import { CustomerService } from "./event/customer.service";
 import { Customer1Service } from "./event/customer1.service";
 import { Customer2Service } from "./customer2.service";
 
+import { StudentModule } from "./student/student.module";
+import { CustomerModule } from "./customer/customer.module";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,7 @@ import { Customer2Service } from "./customer2.service";
     JklComponent,
     GhiComponent
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, StudentModule, CustomerModule],
   providers: [CustomerService, Customer1Service, Customer2Service],
   bootstrap: [AppComponent]
 })
