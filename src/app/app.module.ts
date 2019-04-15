@@ -7,6 +7,7 @@ import { EventComponent } from './event/event.component';
 import { XyzComponent } from './event/xyz/xyz.component';
 import { PqrComponent } from './pqr.component';
 import { JklComponent } from './abc/jkl.component';
+import { GhiComponent } from './ghi/ghi.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { JklComponent } from './abc/jkl.component';
     EventComponent,
     XyzComponent,
     PqrComponent,
-    JklComponent
+    JklComponent,
+    GhiComponent
   ],
   imports: [
     BrowserModule,
